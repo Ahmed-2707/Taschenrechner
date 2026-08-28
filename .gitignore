@@ -1,0 +1,4 @@
+node_modules/
+dist/
+Taschenrechner-darwin-arm64/
+.DS_Store
