@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taschenrechner – Download</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #050505, #171717);
+            color: white;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 700px;
+            padding: 50px;
+            text-align: center;
+
+            background: rgba(20, 20, 20, 0.95);
+            border: 2px solid #d4af37;
+            border-radius: 25px;
+
+            box-shadow:
+                0 0 20px rgba(212, 175, 55, 0.4),
+                0 0 50px rgba(212, 175, 55, 0.15);
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            font-size: 42px;
+            color: #d4af37;
+        }
+
+        .subtitle {
+            color: #cccccc;
+            margin-bottom: 40px;
+            font-size: 18px;
+        }
+
+        .download {
+            display: block;
+            width: 100%;
+            padding: 18px;
+            margin: 18px 0;
+
+            border-radius: 14px;
+            text-decoration: none;
+
+            font-size: 19px;
+            font-weight: bold;
+
+            background: #d4af37;
+            color: #111;
+
+            transition: 0.2s;
+        }
+
+        .download:hover {
+            transform: scale(1.03);
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.6);
+        }
+
+        .windows {
+            background: #d4af37;
+        }
+
+        .mac {
+            background: #eeeeee;
+            color: #111;
+        }
+
+        .github {
+            margin-top: 30px;
+            color: #aaa;
+            text-decoration: none;
+        }
+
+        .github:hover {
+            color: #d4af37;
+        }
+
+        footer {
+            margin-top: 35px;
+            color: #666;
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🧮 Taschenrechner</h1>
+
+        <div class="subtitle">
+            Dein eigener Taschenrechner für Windows und Mac
+        </div>
+
+        <a class="download windows"
+           href="https://github.com/Ahmed-2707/Taschenrechner/releases/latest/download/taschenrechner.Setup.1.0.0.exe">
+            🪟 Windows herunterladen
+        </a>
+
+        <a class="download mac"
+           href="https://github.com/Ahmed-2707/Taschenrechner/releases/latest/download/taschenrechner-1.0.0-arm64.dmg">
+            🍎 Mac herunterladen
+        </a>
+
+        <a class="github"
+           href="https://github.com/Ahmed-2707/Taschenrechner"
+           target="_blank">
+            Auf GitHub ansehen
+        </a>
+
+        <footer>
+            Taschenrechner v1.0.0
+        </footer>
+
+    </div>
+
+</body>
+</html>
