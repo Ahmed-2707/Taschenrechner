@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taschenrechner – Download</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            color: white;
+            background:
+                linear-gradient(rgba(0, 0, 20, 0.75), rgba(0, 0, 20, 0.85)),
+                url("https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg")
+                center / cover fixed;
+        }
+
+        .container {
+            width: min(90%, 700px);
+            padding: 45px 35px;
+            text-align: center;
+            background: rgba(5, 15, 35, 0.92);
+            border: 4px solid #d9a441;
+            border-radius: 25px;
+            box-shadow:
+                0 0 15px #d9a441,
+                0 0 40px rgba(217, 164, 65, 0.6),
+                inset 0 0 25px rgba(217, 164, 65, 0.2);
+        }
+
+        h1 {
+            margin-top: 0;
+            color: #f5c75a;
+            font-size: 42px;
+            text-shadow: 0 0 12px #d9a441;
+        }
+
+        p {
+            font-size: 18px;
+            color: #ddd;
+            margin-bottom: 35px;
+        }
+
+        .downloads {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .download {
+            display: block;
+            width: 260px;
+            padding: 20px;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            background: linear-gradient(#e0ad3d, #a96f12);
+            border: 2px solid #ffe08a;
+            border-radius: 14px;
+            box-shadow: 0 0 15px rgba(217, 164, 65, 0.7);
+            transition: 0.2s;
+        }
+
+        .download:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 0 25px #ffd45c;
+        }
+
+        .icon {
+            display: block;
+            font-size: 38px;
+            margin-bottom: 8px;
+        }
+
+        .github {
+            display: inline-block;
+            margin-top: 30px;
+            color: #f5c75a;
+            text-decoration: none;
+        }
+
+        footer {
+            margin-top: 35px;
+            color: #999;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>⚡ Taschenrechner</h1>
+
+        <p>
+            Lade den Taschenrechner kostenlos für deinen Computer herunter.
+        </p>
+
+        <div class="downloads">
+
+            <a class="download"
+               href="https://github.com/Ahmed-2707/Taschenrechner/releases/download/v1.0.0/taschenrechner-1.0.0-arm64-mac.zip">
+                <span class="icon">🍎</span>
+                Für Mac herunterladen
+            </a>
+
+            <a class="download"
+               href="https://github.com/Ahmed-2707/Taschenrechner/releases/download/v1.0.0/taschenrechner.Setup.1.0.0.exe">
+                <span class="icon">🪟</span>
+                Für Windows herunterladen
+            </a>
+
+        </div>
+
+        <a class="github"
+           href="https://github.com/Ahmed-2707/Taschenrechner"
+           target="_blank">
+            Auf GitHub ansehen →
+        </a>
+
+        <footer>
+            Taschenrechner v1.0.0
+        </footer>
+
+    </div>
+
+</body>
+</html>
